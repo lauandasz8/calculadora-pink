@@ -150,3 +150,28 @@ h1 {
   0% { transform: scale(1); }
   100% { transform: scale(1.02); }
 }
+@media (max-width: 480px) {
+  .calculator {
+    width: 95vw;
+    padding: 15px;
+  }
+
+  .display {
+    font-size: 1.5em;
+    padding: 15px;
+  }
+
+  button {
+    padding: 14px;
+    font-size: 1em;
+  }
+
+  .row-6 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .row-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
